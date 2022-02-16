@@ -1,2 +1,2 @@
 # leetcode
-This repository is for improving my coding ability.
+This repository is for improving my C++ coding ability.
