@@ -1,3 +1,3 @@
-# leetcode 刷题笔记(另一个用户sky2对主分支的更改)
-This repository is for improving my coding ability.
-第三次修改
+# leetcode 算法的刷题笔记
+This repository is for improving my C++ coding ability.
+
