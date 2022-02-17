@@ -1,0 +1,4 @@
+ToolSet: w64 6.0 (local)@C:\Users\ASUS\mingw64
+Options: 
+
+Options:-DCMAKE_C_COMPILER=C:/Users/ASUS/mingw64/bin/gcc.exe
