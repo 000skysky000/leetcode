@@ -15,8 +15,8 @@ This repository is for improving my C++ coding ability.
   * 锻炼算法思维  
     
 ## 刷题顺序  
-  * 数组  
-    * 704二分法
-    * 27删除数组元素
+  * [数组]()  
+    * [704二分法]()
+    * [27删除数组元素]()
   * 链表  
   * ...后续更新  
