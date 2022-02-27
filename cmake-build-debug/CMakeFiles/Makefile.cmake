@@ -47,4 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/leetcode.dir/DependInfo.cmake"
+  "CMakeFiles/704.dir/DependInfo.cmake"
+  "CMakeFiles/27.dir/DependInfo.cmake"
+  "CMakeFiles/799.dir/DependInfo.cmake"
   )

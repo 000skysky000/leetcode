@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/sky/CLionProjects/leetcode/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/sky/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/sky/clion-2021.3.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,120 @@ leetcode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/leetcode.dir/build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
 
+#=============================================================================
+# Target rules for targets named 704
+
+# Build rule for target.
+704: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 704
+.PHONY : 704
+
+# fast build rule for target.
+704/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/704.dir/build.make CMakeFiles/704.dir/build
+.PHONY : 704/fast
+
+#=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
+
+#=============================================================================
+# Target rules for targets named 799
+
+# Build rule for target.
+799: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 799
+.PHONY : 799
+
+# fast build rule for target.
+799/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/799.dir/build.make CMakeFiles/799.dir/build
+.PHONY : 799/fast
+
+array/27yichuyuansu.o: array/27yichuyuansu.cpp.o
+.PHONY : array/27yichuyuansu.o
+
+# target to build an object file
+array/27yichuyuansu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/27yichuyuansu.cpp.o
+.PHONY : array/27yichuyuansu.cpp.o
+
+array/27yichuyuansu.i: array/27yichuyuansu.cpp.i
+.PHONY : array/27yichuyuansu.i
+
+# target to preprocess a source file
+array/27yichuyuansu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/27yichuyuansu.cpp.i
+.PHONY : array/27yichuyuansu.cpp.i
+
+array/27yichuyuansu.s: array/27yichuyuansu.cpp.s
+.PHONY : array/27yichuyuansu.s
+
+# target to generate assembly for a file
+array/27yichuyuansu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/27yichuyuansu.cpp.s
+.PHONY : array/27yichuyuansu.cpp.s
+
+array/704erfenfa.o: array/704erfenfa.cpp.o
+.PHONY : array/704erfenfa.o
+
+# target to build an object file
+array/704erfenfa.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/704.dir/build.make CMakeFiles/704.dir/array/704erfenfa.cpp.o
+.PHONY : array/704erfenfa.cpp.o
+
+array/704erfenfa.i: array/704erfenfa.cpp.i
+.PHONY : array/704erfenfa.i
+
+# target to preprocess a source file
+array/704erfenfa.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/704.dir/build.make CMakeFiles/704.dir/array/704erfenfa.cpp.i
+.PHONY : array/704erfenfa.cpp.i
+
+array/704erfenfa.s: array/704erfenfa.cpp.s
+.PHONY : array/704erfenfa.s
+
+# target to generate assembly for a file
+array/704erfenfa.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/704.dir/build.make CMakeFiles/704.dir/array/704erfenfa.cpp.s
+.PHONY : array/704erfenfa.cpp.s
+
+array/799youxusuzhudepingfang.o: array/799youxusuzhudepingfang.cpp.o
+.PHONY : array/799youxusuzhudepingfang.o
+
+# target to build an object file
+array/799youxusuzhudepingfang.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/799youxusuzhudepingfang.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/799.dir/build.make CMakeFiles/799.dir/array/799youxusuzhudepingfang.cpp.o
+.PHONY : array/799youxusuzhudepingfang.cpp.o
+
+array/799youxusuzhudepingfang.i: array/799youxusuzhudepingfang.cpp.i
+.PHONY : array/799youxusuzhudepingfang.i
+
+# target to preprocess a source file
+array/799youxusuzhudepingfang.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/799youxusuzhudepingfang.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/799.dir/build.make CMakeFiles/799.dir/array/799youxusuzhudepingfang.cpp.i
+.PHONY : array/799youxusuzhudepingfang.cpp.i
+
+array/799youxusuzhudepingfang.s: array/799youxusuzhudepingfang.cpp.s
+.PHONY : array/799youxusuzhudepingfang.s
+
+# target to generate assembly for a file
+array/799youxusuzhudepingfang.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/27.dir/build.make CMakeFiles/27.dir/array/799youxusuzhudepingfang.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/799.dir/build.make CMakeFiles/799.dir/array/799youxusuzhudepingfang.cpp.s
+.PHONY : array/799youxusuzhudepingfang.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -161,7 +275,19 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 27"
+	@echo "... 704"
+	@echo "... 799"
 	@echo "... leetcode"
+	@echo "... array/27yichuyuansu.o"
+	@echo "... array/27yichuyuansu.i"
+	@echo "... array/27yichuyuansu.s"
+	@echo "... array/704erfenfa.o"
+	@echo "... array/704erfenfa.i"
+	@echo "... array/704erfenfa.s"
+	@echo "... array/799youxusuzhudepingfang.o"
+	@echo "... array/799youxusuzhudepingfang.i"
+	@echo "... array/799youxusuzhudepingfang.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

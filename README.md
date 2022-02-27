@@ -15,8 +15,9 @@ This repository is for improving my C++ coding ability.
   * 锻炼算法思维  
     
 ## 刷题顺序  
-  * [数组](https://github.com/000skysky000/leetcode/tree/main/array)  
-    * [704二分法](https://github.com/000skysky000/leetcode/blob/main/array/704erfenfa.cpp)
-    * [27删除数组元素](https://github.com/000skysky000/leetcode/blob/main/array/27yichuyuansu.cpp)
-  * 链表  
+  * [数组](array)  
+    * [704二分法](array/704erfenfa.cpp)
+    * [27删除数组元素](array/27yichuyuansu.cpp)
+    * [977有序数组的平方](array/799youxusuzhudepingfang.cpp)
+  * ...链表  
   * ...后续更新  
