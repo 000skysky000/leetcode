@@ -16,5 +16,5 @@ This repository is for improving my C++ coding ability.
     
 ## 刷题顺序  
   * [数组](array)  
-  * 链表  
+  * 
   * ...后续更新  
