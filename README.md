@@ -3,7 +3,7 @@ This repository is for improving my C++ coding ability.
 *这是根据LeetCode-master这个仓库的题目顺序进行刷题的*  
 *包括了各个题目均包含不同的解法并在注释中进行详细的思路解答*  
 *本项目的全部文件均可在本地运行调试只需要clone到本地加载项目就可以运行*  
-*本项目小白友好欢迎Star&issues*  
+*小白友好---全欢迎Star&Issues*  
   
 ***  
   
