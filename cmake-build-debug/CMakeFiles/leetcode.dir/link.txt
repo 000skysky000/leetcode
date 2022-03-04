@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\leetcode.dir/objects.a
-C:\Users\ASUS\mingw64\bin\ar.exe cr CMakeFiles\leetcode.dir/objects.a @CMakeFiles\leetcode.dir\objects1.rsp
-C:\Users\ASUS\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\leetcode.dir/objects.a -Wl,--no-whole-archive  -o leetcode.exe -Wl,--out-implib,libleetcode.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\leetcode.dir\linklibs.rsp
+/usr/bin/c++ -g CMakeFiles/leetcode.dir/main.cpp.o -o leetcode 
