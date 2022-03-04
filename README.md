@@ -16,5 +16,8 @@ This repository is for improving my C++ coding ability.
     
 ## 刷题顺序  
   * [数组](array)  
-  * 链表  
+    * [704二分法](array/704erfenfa.cpp)
+    * [27删除数组元素](array/27yichuyuansu.cpp)
+    * [977有序数组的平方](array/799youxusuzhudepingfang.cpp)
+  * ...链表  
   * ...后续更新  

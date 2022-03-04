@@ -1,3 +1,6 @@
-C:/Users/ASUS/Desktop/Myrepositry/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir
-C:/Users/ASUS/Desktop/Myrepositry/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/ASUS/Desktop/Myrepositry/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/leetcode.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/704.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/27.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sky/CLionProjects/leetcode/cmake-build-debug/CMakeFiles/799.dir
