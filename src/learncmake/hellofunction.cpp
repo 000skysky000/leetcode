@@ -5,6 +5,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include "static/hellofunction.h"
+
 using namespace std;
 
 void hello()

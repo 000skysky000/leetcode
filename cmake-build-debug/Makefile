@@ -162,17 +162,30 @@ leetcode/fast:
 .PHONY : 799/fast
 
 #=============================================================================
-# Target rules for targets named learnheader
+# Target rules for targets named hello_library
 
 # Build rule for target.
-learnheader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 learnheader
-.PHONY : learnheader
+hello_library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 hello_library
+.PHONY : hello_library
 
 # fast build rule for target.
-learnheader/fast:
-	$(MAKE) -f CMakeFiles\learnheader.dir\build.make CMakeFiles/learnheader.dir/build
-.PHONY : learnheader/fast
+hello_library/fast:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/build
+.PHONY : hello_library/fast
+
+#=============================================================================
+# Target rules for targets named learncmake
+
+# Build rule for target.
+learncmake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 learncmake
+.PHONY : learncmake
+
+# fast build rule for target.
+learncmake/fast:
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/build
+.PHONY : learncmake/fast
 
 main.obj: main.cpp.obj
 
@@ -282,13 +295,40 @@ src/array/799youxusuzhudepingfang.cpp.s:
 	$(MAKE) -f CMakeFiles\799.dir\build.make CMakeFiles/799.dir/src/array/799youxusuzhudepingfang.cpp.s
 .PHONY : src/array/799youxusuzhudepingfang.cpp.s
 
+src/learncmake/hellofunction.obj: src/learncmake/hellofunction.cpp.obj
+
+.PHONY : src/learncmake/hellofunction.obj
+
+# target to build an object file
+src/learncmake/hellofunction.cpp.obj:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.obj
+.PHONY : src/learncmake/hellofunction.cpp.obj
+
+src/learncmake/hellofunction.i: src/learncmake/hellofunction.cpp.i
+
+.PHONY : src/learncmake/hellofunction.i
+
+# target to preprocess a source file
+src/learncmake/hellofunction.cpp.i:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.i
+.PHONY : src/learncmake/hellofunction.cpp.i
+
+src/learncmake/hellofunction.s: src/learncmake/hellofunction.cpp.s
+
+.PHONY : src/learncmake/hellofunction.s
+
+# target to generate assembly for a file
+src/learncmake/hellofunction.cpp.s:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.s
+.PHONY : src/learncmake/hellofunction.cpp.s
+
 src/learncmake/learncmake.obj: src/learncmake/learncmake.cpp.obj
 
 .PHONY : src/learncmake/learncmake.obj
 
 # target to build an object file
 src/learncmake/learncmake.cpp.obj:
-	$(MAKE) -f CMakeFiles\learnheader.dir\build.make CMakeFiles/learnheader.dir/src/learncmake/learncmake.cpp.obj
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.obj
 .PHONY : src/learncmake/learncmake.cpp.obj
 
 src/learncmake/learncmake.i: src/learncmake/learncmake.cpp.i
@@ -297,7 +337,7 @@ src/learncmake/learncmake.i: src/learncmake/learncmake.cpp.i
 
 # target to preprocess a source file
 src/learncmake/learncmake.cpp.i:
-	$(MAKE) -f CMakeFiles\learnheader.dir\build.make CMakeFiles/learnheader.dir/src/learncmake/learncmake.cpp.i
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.i
 .PHONY : src/learncmake/learncmake.cpp.i
 
 src/learncmake/learncmake.s: src/learncmake/learncmake.cpp.s
@@ -306,7 +346,7 @@ src/learncmake/learncmake.s: src/learncmake/learncmake.cpp.s
 
 # target to generate assembly for a file
 src/learncmake/learncmake.cpp.s:
-	$(MAKE) -f CMakeFiles\learnheader.dir\build.make CMakeFiles/learnheader.dir/src/learncmake/learncmake.cpp.s
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.s
 .PHONY : src/learncmake/learncmake.cpp.s
 
 # Help Target
@@ -319,8 +359,9 @@ help:
 	@echo ... leetcode
 	@echo ... 27
 	@echo ... 799
+	@echo ... hello_library
 	@echo ... edit_cache
-	@echo ... learnheader
+	@echo ... learncmake
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -334,6 +375,9 @@ help:
 	@echo ... src/array/799youxusuzhudepingfang.obj
 	@echo ... src/array/799youxusuzhudepingfang.i
 	@echo ... src/array/799youxusuzhudepingfang.s
+	@echo ... src/learncmake/hellofunction.obj
+	@echo ... src/learncmake/hellofunction.i
+	@echo ... src/learncmake/hellofunction.s
 	@echo ... src/learncmake/learncmake.obj
 	@echo ... src/learncmake/learncmake.i
 	@echo ... src/learncmake/learncmake.s
