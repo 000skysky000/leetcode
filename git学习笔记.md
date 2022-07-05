@@ -11,3 +11,4 @@ git commit
 ## 3.使用git的一般流程
 git pull 更新项目的改变
 git commit 自己更改项目后提交至缓存区
+git push 提交改变至远程库
