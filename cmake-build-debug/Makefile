@@ -110,6 +110,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 704
+
+# Build rule for target.
+704: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 704
+.PHONY : 704
+
+# fast build rule for target.
+704/fast:
+	$(MAKE) -f CMakeFiles\704.dir\build.make CMakeFiles/704.dir/build
+.PHONY : 704/fast
+
+#=============================================================================
 # Target rules for targets named leetcode
 
 # Build rule for target.
@@ -121,6 +134,58 @@ leetcode: cmake_check_build_system
 leetcode/fast:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/build
 .PHONY : leetcode/fast
+
+#=============================================================================
+# Target rules for targets named 27
+
+# Build rule for target.
+27: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 27
+.PHONY : 27
+
+# fast build rule for target.
+27/fast:
+	$(MAKE) -f CMakeFiles\27.dir\build.make CMakeFiles/27.dir/build
+.PHONY : 27/fast
+
+#=============================================================================
+# Target rules for targets named 799
+
+# Build rule for target.
+799: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 799
+.PHONY : 799
+
+# fast build rule for target.
+799/fast:
+	$(MAKE) -f CMakeFiles\799.dir\build.make CMakeFiles/799.dir/build
+.PHONY : 799/fast
+
+#=============================================================================
+# Target rules for targets named hello_library
+
+# Build rule for target.
+hello_library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 hello_library
+.PHONY : hello_library
+
+# fast build rule for target.
+hello_library/fast:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/build
+.PHONY : hello_library/fast
+
+#=============================================================================
+# Target rules for targets named learncmake
+
+# Build rule for target.
+learncmake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 learncmake
+.PHONY : learncmake
+
+# fast build rule for target.
+learncmake/fast:
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/build
+.PHONY : learncmake/fast
 
 main.obj: main.cpp.obj
 
@@ -149,18 +214,173 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/array/27yichuyuansu.obj: src/array/27yichuyuansu.cpp.obj
+
+.PHONY : src/array/27yichuyuansu.obj
+
+# target to build an object file
+src/array/27yichuyuansu.cpp.obj:
+	$(MAKE) -f CMakeFiles\27.dir\build.make CMakeFiles/27.dir/src/array/27yichuyuansu.cpp.obj
+.PHONY : src/array/27yichuyuansu.cpp.obj
+
+src/array/27yichuyuansu.i: src/array/27yichuyuansu.cpp.i
+
+.PHONY : src/array/27yichuyuansu.i
+
+# target to preprocess a source file
+src/array/27yichuyuansu.cpp.i:
+	$(MAKE) -f CMakeFiles\27.dir\build.make CMakeFiles/27.dir/src/array/27yichuyuansu.cpp.i
+.PHONY : src/array/27yichuyuansu.cpp.i
+
+src/array/27yichuyuansu.s: src/array/27yichuyuansu.cpp.s
+
+.PHONY : src/array/27yichuyuansu.s
+
+# target to generate assembly for a file
+src/array/27yichuyuansu.cpp.s:
+	$(MAKE) -f CMakeFiles\27.dir\build.make CMakeFiles/27.dir/src/array/27yichuyuansu.cpp.s
+.PHONY : src/array/27yichuyuansu.cpp.s
+
+src/array/704erfenfa.obj: src/array/704erfenfa.cpp.obj
+
+.PHONY : src/array/704erfenfa.obj
+
+# target to build an object file
+src/array/704erfenfa.cpp.obj:
+	$(MAKE) -f CMakeFiles\704.dir\build.make CMakeFiles/704.dir/src/array/704erfenfa.cpp.obj
+.PHONY : src/array/704erfenfa.cpp.obj
+
+src/array/704erfenfa.i: src/array/704erfenfa.cpp.i
+
+.PHONY : src/array/704erfenfa.i
+
+# target to preprocess a source file
+src/array/704erfenfa.cpp.i:
+	$(MAKE) -f CMakeFiles\704.dir\build.make CMakeFiles/704.dir/src/array/704erfenfa.cpp.i
+.PHONY : src/array/704erfenfa.cpp.i
+
+src/array/704erfenfa.s: src/array/704erfenfa.cpp.s
+
+.PHONY : src/array/704erfenfa.s
+
+# target to generate assembly for a file
+src/array/704erfenfa.cpp.s:
+	$(MAKE) -f CMakeFiles\704.dir\build.make CMakeFiles/704.dir/src/array/704erfenfa.cpp.s
+.PHONY : src/array/704erfenfa.cpp.s
+
+src/array/799youxusuzhudepingfang.obj: src/array/799youxusuzhudepingfang.cpp.obj
+
+.PHONY : src/array/799youxusuzhudepingfang.obj
+
+# target to build an object file
+src/array/799youxusuzhudepingfang.cpp.obj:
+	$(MAKE) -f CMakeFiles\799.dir\build.make CMakeFiles/799.dir/src/array/799youxusuzhudepingfang.cpp.obj
+.PHONY : src/array/799youxusuzhudepingfang.cpp.obj
+
+src/array/799youxusuzhudepingfang.i: src/array/799youxusuzhudepingfang.cpp.i
+
+.PHONY : src/array/799youxusuzhudepingfang.i
+
+# target to preprocess a source file
+src/array/799youxusuzhudepingfang.cpp.i:
+	$(MAKE) -f CMakeFiles\799.dir\build.make CMakeFiles/799.dir/src/array/799youxusuzhudepingfang.cpp.i
+.PHONY : src/array/799youxusuzhudepingfang.cpp.i
+
+src/array/799youxusuzhudepingfang.s: src/array/799youxusuzhudepingfang.cpp.s
+
+.PHONY : src/array/799youxusuzhudepingfang.s
+
+# target to generate assembly for a file
+src/array/799youxusuzhudepingfang.cpp.s:
+	$(MAKE) -f CMakeFiles\799.dir\build.make CMakeFiles/799.dir/src/array/799youxusuzhudepingfang.cpp.s
+.PHONY : src/array/799youxusuzhudepingfang.cpp.s
+
+src/learncmake/hellofunction.obj: src/learncmake/hellofunction.cpp.obj
+
+.PHONY : src/learncmake/hellofunction.obj
+
+# target to build an object file
+src/learncmake/hellofunction.cpp.obj:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.obj
+.PHONY : src/learncmake/hellofunction.cpp.obj
+
+src/learncmake/hellofunction.i: src/learncmake/hellofunction.cpp.i
+
+.PHONY : src/learncmake/hellofunction.i
+
+# target to preprocess a source file
+src/learncmake/hellofunction.cpp.i:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.i
+.PHONY : src/learncmake/hellofunction.cpp.i
+
+src/learncmake/hellofunction.s: src/learncmake/hellofunction.cpp.s
+
+.PHONY : src/learncmake/hellofunction.s
+
+# target to generate assembly for a file
+src/learncmake/hellofunction.cpp.s:
+	$(MAKE) -f CMakeFiles\hello_library.dir\build.make CMakeFiles/hello_library.dir/src/learncmake/hellofunction.cpp.s
+.PHONY : src/learncmake/hellofunction.cpp.s
+
+src/learncmake/learncmake.obj: src/learncmake/learncmake.cpp.obj
+
+.PHONY : src/learncmake/learncmake.obj
+
+# target to build an object file
+src/learncmake/learncmake.cpp.obj:
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.obj
+.PHONY : src/learncmake/learncmake.cpp.obj
+
+src/learncmake/learncmake.i: src/learncmake/learncmake.cpp.i
+
+.PHONY : src/learncmake/learncmake.i
+
+# target to preprocess a source file
+src/learncmake/learncmake.cpp.i:
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.i
+.PHONY : src/learncmake/learncmake.cpp.i
+
+src/learncmake/learncmake.s: src/learncmake/learncmake.cpp.s
+
+.PHONY : src/learncmake/learncmake.s
+
+# target to generate assembly for a file
+src/learncmake/learncmake.cpp.s:
+	$(MAKE) -f CMakeFiles\learncmake.dir\build.make CMakeFiles/learncmake.dir/src/learncmake/learncmake.cpp.s
+.PHONY : src/learncmake/learncmake.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... 704
 	@echo ... leetcode
+	@echo ... 27
+	@echo ... 799
+	@echo ... hello_library
 	@echo ... edit_cache
+	@echo ... learncmake
 	@echo ... rebuild_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/array/27yichuyuansu.obj
+	@echo ... src/array/27yichuyuansu.i
+	@echo ... src/array/27yichuyuansu.s
+	@echo ... src/array/704erfenfa.obj
+	@echo ... src/array/704erfenfa.i
+	@echo ... src/array/704erfenfa.s
+	@echo ... src/array/799youxusuzhudepingfang.obj
+	@echo ... src/array/799youxusuzhudepingfang.i
+	@echo ... src/array/799youxusuzhudepingfang.s
+	@echo ... src/learncmake/hellofunction.obj
+	@echo ... src/learncmake/hellofunction.i
+	@echo ... src/learncmake/hellofunction.s
+	@echo ... src/learncmake/learncmake.obj
+	@echo ... src/learncmake/learncmake.i
+	@echo ... src/learncmake/learncmake.s
 .PHONY : help
 
 

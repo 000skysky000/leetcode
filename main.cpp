@@ -14,11 +14,12 @@ public:
         }
         return min(dp[cost.size() - 1], dp[cost.size() - 2]);
     }
-};
 
+};
 int main() {
     int a[] = {1, 100, 1, 1, 1, 100, 1, 1, 100, 1};
     vector<int> cost(a, a + sizeof(a) / sizeof(int));
     Solution solution;
+
     cout << solution.minCostClimbingStairs(cost) << endl;
 }
