@@ -33,6 +33,6 @@ add_executable(learncmake
 target_link_libraries( learncmake
         PRIVATE
             hello_library
-        )
+)
 
 ####################添加动态库文件##########################################################
