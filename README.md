@@ -8,7 +8,7 @@ This repository is for improving my C++ coding ability.
 ***  
   
 ## 本项目目的  
-  * 学习Markdown语法  
+  * 学习Markdown语法   
   * 学习git语法  
   * 熟练C++语法
   * 学习Cmake  
