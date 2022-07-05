@@ -10,14 +10,15 @@ This repository is for improving my C++ coding ability.
 ## 本项目目的  
   * 学习Markdown语法  
   * 学习git语法  
-  * 熟练C++语法  
+  * 熟练C++语法
+  * 学习Cmake  
   * 学习数据结构  
   * 锻炼算法思维  
     
 ## 刷题顺序  
-  * [数组](array)  
-    * [704二分法](array/704erfenfa.cpp)
-    * [27删除数组元素](array/27yichuyuansu.cpp)
-    * [977有序数组的平方](array/799youxusuzhudepingfang.cpp)
+  * [数组](src/array)  
+    * [704二分法](src/array/704erfenfa.cpp)
+    * [27删除数组元素](src/array/27yichuyuansu.cpp)
+    * [977有序数组的平方](src/array/799youxusuzhudepingfang.cpp)
   * ...链表  
   * ...后续更新  
