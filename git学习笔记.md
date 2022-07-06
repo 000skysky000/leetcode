@@ -1,10 +1,10 @@
 # git使用笔记
 ***
 ## 1.初始化
-git init  初始化git,相当于生成git配置文件
-git  config 配置git账户信息
-git add [file1] [file2]  将文件加入版本控制
-       ## 2.提交
+git init  初始化git,相当于生成git配置文件  
+git  config 配置git账户信息  
+git add [file1] [file2]  将文件加入版本控制  
+## 2.提交
 git commit   
   * -message  * 添加信息   
   * -ammend * 修改提交  
