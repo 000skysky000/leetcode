@@ -9,4 +9,3 @@
 void hello();
 #endif
 
-void hello();
